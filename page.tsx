@@ -2,10 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="flex items-center justify-center h-screen w-full text-center">
-    <p>HELLO WORLd</p>
-    <p>school</p>
-  </section>
-  
+    <div className="flex flex-row justify-end  h-screen w-full p-10">
+        <h1 className="mr-8">Attendance</h1>
+        <h1 className="mr-8">Academic Details</h1>
+        <h1 className="mr-8">Staff Mangement</h1>
+        <h1 className="mr-8">Management Login</h1>
+        </div>
   );
 }
